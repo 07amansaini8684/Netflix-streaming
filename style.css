@@ -1,0 +1,611 @@
+/* todo chaliye surru karte hai  */
+* {
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* @media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+.black_bg {
+    height: 750px;
+    width: 100%;
+    /* background-color: rgb(0 0 0 / 54%); */
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8715861344537815) 0%, rgba(14, 14, 14, 0.31416316526610644) 49%, rgba(0, 0, 0, 0.804359243697479) 100%);
+}
+
+header {
+    width: 100%;
+    /* todo background-color: rgba(255, 0, 0, 0.24); */
+
+}
+
+nav {
+    margin: auto;
+    justify-content: space-between;
+    width: 75%;
+    /* todo background-color: burlywood; */
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    height: 95px;
+}
+
+.nav_button {
+    display: flex;
+    gap: 25px;
+}
+
+.language>img {
+    filter: invert(1);
+    height: 12px;
+
+
+}
+
+.language>select {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.language {
+    justify-content: center;
+    align-items: center;
+    padding: 3.5px 12px;
+    display: flex;
+    background-color: #00000059;
+    border: 1.7px solid #636363;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.first_page_1 {
+    background-image: url(imges/IN-en-20240506-POP_SIGNUP_TWO_WEEKS-perspective_WEB_ebbef551-d229-4865-8cdc-fb00f8960227_medium.jpg);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+
+.red_btn {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding: 2px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 9, 9);
+    cursor: pointer;
+}
+
+.red_btn:hover {
+    background-color: rgb(207, 7, 7);
+}
+
+.first_page_1_center_text {
+    /* height: 58vh; */
+    width: 80vw;
+    /* background-color: rebeccapurple; */
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_page_1_center_text h1 {
+    font-size: 42px;
+    margin: 8px;
+    text-align: center;
+
+}
+
+.first_page_1_center_text span {
+    font-size: 21px;
+    margin: 12px 0px 20px 0px;
+
+    text-align: center;
+}
+
+.first_page_1_center_text span:nth-child(3) {
+    font-size: 17px;
+    margin: 0px 0px 15px 0px;
+
+    text-align: center;
+}
+
+.email {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgb(22, 35, 216); */
+}
+
+.email input {
+    background: #00000080;
+    padding: 15px 24px;
+    border-radius: 6px;
+    border: 1.7px solid #666464;
+    width: 30%;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: rgb(219, 219, 219);
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 952px) {
+.email input::placeholder{
+    font-size: 9px;
+    /* color: rebeccapurple; */
+}
+    }
+
+.start {
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 10px 26px;
+    background-color: #e5001a;
+}
+
+/* todo <!-- first page ends here  --> */
+.partition {
+    height: 8px;
+    width: 100%;
+    background-color: #222222;
+}
+
+.second_page {
+    /* background-color: rebeccapurple; */
+    background-color: black;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.same_pagetype {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* background-color: rgb(170, 11, 11); */
+    background-color: black;
+
+}
+
+
+.page_text {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 46%;
+}
+
+.page_text h1 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+/* @media only screen and  (max-width: 517px){
+    .same_pagetype, .same_pagetype h1{
+        flex-direction: column;
+        font-size: 18px;
+    } */
+
+.page_text span {
+    margin: 14px 0px;
+    font-size: 22px;
+}
+
+/* @media only screen and  (max-width: 517px){
+    .page_text span{
+        font-size: 14px;
+    } */
+.page_asset {
+    width: 50%;
+    position: relative;
+}
+
+.page_asset img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.page_asset video {
+    position: absolute;
+    right: 74px;
+    top: 82px;
+    width: 73%;
+}
+
+@media only screen and (max-width: 952px) {
+    .page_asset video {
+        right: 54px;
+        top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page_asset video {
+        right: 44px;
+        top: 48px;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    .page_asset video {
+        right: 43px;
+        top: 47px;
+    }
+}
+
+/* todod second page ends here  */
+/* .third_page_asset{
+    background-color: rebeccapurple;
+} */
+.download h2 {
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.download span {
+    font-size: 11px;
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.box {
+    gap: 15px;
+    left: 22%;
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    border: 2px solid #3f3f3f;
+    position: absolute;
+    bottom: 50px;
+    /* padding: 15px; */
+    z-index: 1;
+    background: black;
+    width: 52%;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.donwcircle {
+    height: 75px;
+    width: 20%;
+    /* background: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 4px solid white;
+    border-right-color: blue;
+    animation: rotate 1s linear infinite;
+}
+
+#box_img {
+    width: 58px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .circle {
+        height: 9px;
+        width: 9px;
+        border: 2.5px solid;
+        border-right-color: blue;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .download h2 {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .download span {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    #box_img {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 719px) {
+    .box {
+        gap: 12px;
+        left: 22%;
+        display: flex;
+        align-items: center;
+        /* position: absolute; */
+        border: 2px solid #3f3f3f;
+        position: absolute;
+        bottom: 16px;
+        /* padding: 15px; */
+        z-index: 1;
+        background: black;
+        width: 52%;
+        border-radius: 10px;
+        padding: 3px 7px;
+        height: 24%;
+        height: 24%;
+    }
+}
+
+/* todo third page ends here  */
+#video_2 {
+    width: 61%;
+    position: absolute;
+    right: 109px;
+    top: 35px;
+}
+
+@media only screen and (max-width: 952px) {
+    #video_2 {
+        right: 75px;
+        top: 24px;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    #video_2 {
+        right: 62px;
+        top: 24px;
+
+    }
+}
+
+
+/* todo sixth page starts from here  */
+.sixth_page {
+    background: black;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sixth_page h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 8px 0px;
+    text-align: center;
+}
+
+
+.question_box {
+    width: 76vw;
+    /* background-color: #3f3f3f; */
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 21px;
+    margin: auto;
+    font-size: 25px;
+}
+
+.question_box:hover {
+    background-color: #414141;
+    cursor: pointer;
+
+}
+
+.question_box h4 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.sixth_page p {
+    font-size: 18px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+/* todo  sixth_page ends here  */
+/* ! footer start form here  */
+footer {
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.foot {
+    display: flex;
+    /* align-items: center; */
+    width: 80vw;
+    margin: auto;
+    /* background-color: rebeccapurple; */
+    justify-content: space-between;
+
+}
+
+footer h1 {
+    font-size: 13px;
+    font-weight: 400;
+    display: inline;
+    margin-left: 12vw;
+}
+
+ul li {
+    line-height: 33.5px;
+    list-style: none;
+    font-size: 13px;
+}
+
+.list {
+    width: 14vw;
+}
+
+.nnd_lang {
+    margin: 20px 0px;
+    width: 103px;
+}
+
+.page_text h1 {
+    font-size: 40px;
+}
+
+/* ! project end here  */
+/* todo remaining media queries are here  */
+
+@media only screen and (max-width:517px) {
+    .page_text h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:517px) {
+    .page_text span {
+        font-size: 12px;
+        /* color: rebeccapurple; */
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:517px) {
+    .sixth_page h1 {
+        font-size: 25px;
+        /* color: rebeccapurple; */
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    #box_img {
+        width: 27px;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    .download span {
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .same_pagetype {
+        /* background-color: rebeccapurple; */
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .page_asset{
+        /* background-color: rebeccapurple; */
+        /* flex-direction: column; */
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .page_text{
+        /* background-color: rebeccapurple; */
+        /* flex-direction: column; */
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .first_page_1_center_text h1{
+       font-size: 25px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .first_page_1_center_text span:nth-child(3){
+       font-size: 10px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .first_page_1_center_text span {
+       font-size: 16px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .start{
+       font-size: 10px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .email input{
+        padding: 7px 20px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .logo img{
+     height: 65px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .first_page_1, .black_bg{
+     height: 650px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .question_box h4{
+     font-size: 15px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .question_box {
+        font-size: 15px;
+        padding: 12px 10px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .sixth_page p {
+        font-size: 10px;
+        margin-top: 17px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .language>select, .nnd_lang {
+        width: 47px;
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 517px) {
+    .foot div ul li {
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .foot div ul {
+       padding: 6px;
+    }
+}
